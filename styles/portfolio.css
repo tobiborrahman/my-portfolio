@@ -5,12 +5,15 @@
 }
 
 .header {
+  width: 100%;
+  height: 100vh;
   background-image: url("../images/header_bg.png"),
     url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: right bottom, left;
   background-color: #fff8f3;
   padding: 10px 10px;
+  
 }
 
 nav {
@@ -72,7 +75,7 @@ nav li {
 }
 .hardy {
   width: 384px;
-  height: 576px;
+  height: 440px;
   margin: 50px 100px 0px;
   padding: 0;
 }
@@ -118,7 +121,7 @@ main {
 
 .card-items {
   width: 230px;
-  height: 270px;
+  height: 250px;
   background: #ffffff;
   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
@@ -126,61 +129,163 @@ main {
   margin-right: 20px;
 }
 
-.card{
-    display: flex;
-    margin-top: 30px;
+.card {
+  display: flex;
+  margin-top: 30px;
 }
 
-.card-img{
-    width: 30px;
-    height: 30px;
-    margin: 40px 0 0 15px;
+.card-img {
+  width: 30px;
+  height: 30px;
+  margin: 20px 0 0 15px;
 }
 
-.card-title{
-    margin: 5px 0 0 15px;
+.card-title {
+  margin: 5px 0 0 15px;
 }
-.card-para{
-    margin: 5px 0 0 15px;
-    font-size: 13px;
-    font-weight: 400;
+.card-para {
+  margin: 5px 15px 0 15px;
+  font-size: 13px;
+  font-weight: 400;
 }
 
 /* Education and resume section starts */
 
-.resume{
-    margin-top: 70px;
+.resume {
+  margin-top: 70px;
 }
-.my-resume{
-    display: flex;
-    justify-content: space-between;
-}
-
-hr{
-    width: 370px;
-    height: 0;
-    border: 1px solid #D1D1D1;
-    margin-top: 10px;
+.my-resume {
+  display: flex;
+  justify-content: space-between;
 }
 
-.education, .experience{
-    margin-top: 50px;
+hr {
+  width: 370px;
+  height: 0;
+  border: 1px solid #d1d1d1;
+  margin-top: 15px;
 }
 
-.resume-details{
-    width: 370px;
-    height: 150px;
-    margin-top: 0px;
+.education,
+.experience {
+  margin-top: 50px;
 }
 
-.heading3{
-    margin: 10px 0;
-}
-.heading5{
-    margin: 10px 0;
+.resume-details {
+  width: 370px;
+  height: 150px;
+  margin-top: 0px;
 }
 
-.resume-para{
-    font-weight: 400;
-    font-size: 12px;
+.heading3 {
+  margin: 10px 0;
+}
+.heading5 {
+  margin: 10px 0;
+}
+
+.resume-para {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.btn-center {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.center-btn {
+  background-color: #fd6e0a;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+}
+
+/* Footer starts here */
+
+.footer-one {
+  margin-top: 70px;
+  width: 100%;
+  height: 500px;
+  background: #fff8f3;
+}
+
+.footer-two {
+  display: flex;
+  justify-content: space-around;
+}
+
+.connect {
+  margin-top: 90px;
+}
+.message {
+  margin-top: 90px;
+}
+
+.footer-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  color: #181818;
+}
+
+.footer-para {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+  margin-top: 10px;
+}
+
+.fa-brands {
+  color: #fd6e0a;
+  background: none;
+  margin: 20px 20px 0 0;
+  font-size: 20px;
+}
+.name {
+  width: 300px;
+  height: 30px;
+  margin-top: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 0 20px;
+}
+
+.email {
+  width: 300px;
+  height: 30px;
+  margin-top: 10px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 0 20px;
+}
+
+.text-message {
+  width: 300px;
+  height: 90px;
+  margin: 10px 0 0px 0;
+  resize: none;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 7px 20px;
+}
+
+.footer-btn {
+  background-color: #fd6e0a;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
+  width: 85px;
+  height: 35px;
 }
