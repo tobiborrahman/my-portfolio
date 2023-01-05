@@ -5,14 +5,14 @@
 }
 
 .header {
-  width: 100%;
-  height: 100vh;
+  /* width: 100%;
+  height: 100vh; */
   background-image: url("../images/header_bg.png"),
     url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: right bottom, left;
   background-color: #fff8f3;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
 }
 
 nav {
@@ -72,11 +72,9 @@ nav li {
 .banner-desc {
   margin-bottom: 15px;
 }
-.hardy {
-  width: 384px;
-  height: 440px;
-  margin: 50px 100px 0px;
-  padding: 0;
+.banner-photo {
+  display: flex;
+  align-items: center;
 }
 
 /* Main function starts */
